@@ -2,7 +2,7 @@
 # Configure the S3 backend for storing Terraform state
 terraform {
   backend "s3" {
-    bucket         = "hellodevops081222"
+    bucket         = "hellodevops0812222"
     key            = "terraform.tfstate"
     region         = "ap-south-1" # Change to your desired region
     encrypt        = true
