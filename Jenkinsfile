@@ -18,8 +18,8 @@ sh 'terraform plan'
     }
     
       stage ('terraform-apply') {
+        input 'waiting for manager approvel'
       steps {
-        input : "waiing for manager approvel"
 sh 'terraform apply --auto-approve'
       }
     }
