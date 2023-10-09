@@ -8,3 +8,4 @@ instnace_type = var.instance_type
 tags = {
 name = "backend"
 }
+}
