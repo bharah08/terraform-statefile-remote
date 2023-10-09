@@ -1,13 +1,6 @@
 provider "aws" {
   region = "ap-south-1"
 }
-
-resource "aws_instance" "example" {
-  instance_type = "var.instance_type"
-  ami = "var.ami"
-
-}
-
 resource "aws_s3_bucket" "s3_bucket" {
   bucket = "s3remote0812" 
 }
